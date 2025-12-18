@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Chatbot Batik Solo Trans</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 380px;
+    height: 560px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.bot-message, .user-message {
+    max-width: 80%;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    line-height: 1.4;
+}
+
+.bot-message {
+    background: #ecf0f1;
+    align-self: flex-start;
+}
+
+.user-message {
+    background: #3498db;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.chat-input button {
+    margin-left: 8px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background: #2980b9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        🤖 Chatbot Batik Solo Trans
+    </div>
+
+    <div class="chat-box" id="chatBox">
+        <div class="bot-message">
+            Halo 👋<br>
+            Saya chatbot Batik Solo Trans (BST).<br>
+            Silakan tanyakan jadwal & layanan BST.
+        </div>
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Ketik pertanyaan di sini...">
+        <button onclick="sendMessage()">Kirim</button>
+    </div>
+</div>
+
+<script>
+const data = {
+    "jadwal bus trans solo": "Bus Trans Solo beroperasi mulai pukul 05.30 WIB sampai 21.00 WIB untuk semua koridor utama.",
+    "jam berapa bst berangkat": "Bus BST mulai beroperasi pukul 05.30 WIB setiap hari.",
+    "jadwal keberangkatan bst koridor 1": "Koridor 1 BST beroperasi dari pukul 05.30 hingga 21.00, dengan keberangkatan setiap 10–15 menit.",
+    "jadwal keberangkatan bst koridor 2": "Koridor 2 BST beroperasi pukul 05.30–21.00 dengan interval sekitar 15 menit.",
+    "jadwal keberangkatan bst koridor 3": "Koridor 3 beroperasi mulai 05.30 dengan interval 10–20 menit hingga 20.30–21.00.",
+    "berapa menit sekali bst lewat": "BST biasanya lewat setiap 10–15 menit pada jam normal dan bisa menjadi 20 menit pada malam hari.",
+    "apa itu bst": "Bus Solo Trans adalah layanan angkutan umum berbasis bus rapid transit (BRT) di Kota Solo yang bertujuan memudahkan masyarakat dalam mobilitas.",
+    "berapa jumlah koridor atau rute yang dimiliki bst": "Bus Solo Trans memiliki beberapa koridor/rute salah satunya Koridor 1 (terminal Purwosari – Terminal Banyuanyar).",
+    "keunggulan bst": "Nyaman, aman, cepat, tarif terjangkau.",
+    "dimana bisa beli tiket": "Loket halte atau aplikasi digital.",
+    "apakah ada jalur khusus": "Ya.",
+    "siapa yang dapat fasilitas prioritas": "Lansia, disabilitas, ibu hamil, anak kecil.",
+    "jam operasional": "Sekitar 05.00–21.00.",
+    "apakah bus ini ramah lingkungan": "Ya, menggunakan bahan bakar bersih.",
+    "harga tiket bst": "Rp 3.500–5.000 (sesuai rute).",
+    "diskon untuk siapa": "Lansia, pelajar, disabilitas.",
+    "cara top up kartu bst": "Lewat loket atau aplikasi digital.",
+    "tarif koridor 1 sama koridor 2": "Sama, flat rate.",
+    "bisa pakai qris": "Ya, di beberapa halte.",
+    "apakah ada biaya tambahan bagasi": "Tidak."
+};
+
+const chatBox = document.getElementById("chatBox");
+const userInput = document.getElementById("userInput");
+
+function addMessage(text, className) {
+    const div = document.createElement("div");
+    div.className = className;
+    div.innerText = text;
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function sendMessage() {
+    const message = userInput.value.toLowerCase().trim();
+    if (message === "") return;
+
+    addMessage(message, "user-message");
+
+    const reply = data[message] ||
+        "Maaf, saya belum memahami pertanyaan Anda. Coba gunakan kata kunci yang sesuai.";
+
+    setTimeout(() => {
+        addMessage(reply, "bot-message");
+    }, 500);
+
+    userInput.value = "";
+}
+
+userInput.addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        sendMessage();
+    }
+});
+</script>
+
+</body>
+</html>
