@@ -1,7 +1,9 @@
 # chatbot-bst
 Chatbot BST adalah asisten AI interaktif yang memberikan info jadwal, harga, layanan, dan keunggulan bisnis secara cepat dan mudah. Dirancang untuk meningkatkan pengalaman pelanggan, efisiensi layanan, dan memberikan informasi lengkap tanpa harus menunggu staf manusia.
 
-I. PENDAHULUAN
+I. 
+
+PENDAHULUAN
 
 Perkembangan teknologi informasi mendorong penerapan sistem cerdas pada berbagai sektor, termasuk transportasi publik. Salah satu bentuk penerapan tersebut adalah chatbot berbasis machine learning, yaitu sistem yang mampu berinteraksi dengan pengguna melalui bahasa alami secara otomatis.
 
@@ -44,7 +46,9 @@ Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas d
 
 
 
-II. 🧠 Deskripsi Proyek
+II. 
+
+🧠 Deskripsi Proyek
 
 Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
 GitHub
@@ -135,3 +139,9 @@ GitHub
 Proyek ini dilisensikan di bawah MIT License — lihat berkas LICENSE untuk detail. 
 
 GitHub
+
+III.
+
+📍 Kesimpulan Akhir
+
+Chatbot BST merupakan sistem informasi transportasi berbasis rule/text matching yang sederhana namun fungsional.
