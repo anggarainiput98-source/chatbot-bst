@@ -66,25 +66,33 @@ Dataset berisi pertanyaan dan jawaban BST.
 GitHub
 
 3. index.html
+
 Antarmuka pengguna untuk interaksi chatbot. 
+
 GitHub
 
 4.README.md
+
 Deskripsi dan panduan proyek. 
+
 GitHub
 
 🎯 Tujuan Proyek
 
 1. Menyediakan informasi layanan BST secara cepat dan akurat. 
+
 GitHub
 
 2. Menampilkan jadwal operasional BST. 
+
 GitHub
 
 3. Menyajikan informasi tarif perjalanan. 
+
 GitHub
 
 4. Meningkatkan akses informasi transportasi publik bagi masyarakat. 
+
 GitHub
 
 🚀 Cara Menjalankan
@@ -92,17 +100,21 @@ GitHub
 1. Clone repository
 
    git clone https://github.com/anggarainiput98-source/chatbot-bst.git
+
    GitHub
    
 2. Masuk ke folder proyek
 
    cd chatbot-bst
+
    GitHub
 
 3.Jalankan chatbot
 
 - Jika menggunakan antarmuka HTML, buka index.html di browser. 
+
 GitHub
 
 - Jika menggunakan Python, jalankan skrip utama di src/chatbot_bst.py. 
+
 GitHub
