@@ -21,23 +21,23 @@ Chatbot BST dirancang untuk memberikan informasi lengkap, cepat, dan akurat meng
 
 3. 💰 Mengakses informasi tarif atau harga BST
 
-📍 Membantu perencanaan perjalanan agar lebih efisien dan nyaman
+4. 📍 Membantu perencanaan perjalanan agar lebih efisien dan nyaman
 
-📲 Menyediakan layanan informasi yang praktis, responsif, dan ramah pengguna
+5. 📲 Menyediakan layanan informasi yang praktis, responsif, dan ramah pengguna
 
 ⭐ Fitur Utama Chatbot BST 🚌
 
-🚌 Informasi BST
+1. 🚌 Informasi BST
 Menyediakan penjelasan lengkap mengenai BST, termasuk rute, layanan, dan fasilitas yang tersedia.
 
-⏰ Jadwal BST
+2. ⏰ Jadwal BST
 Menampilkan jadwal keberangkatan dan kedatangan bus BST berdasarkan rute dan waktu operasional.
 
-💰 Harga / Tarif BST
+3. 💰 Harga / Tarif BST
 Memberikan informasi tarif perjalanan BST yang terbaru dan mudah dipahami.
 
-🔍 Akses Informasi Cepat
+4. 🔍 Akses Informasi Cepat
 Pengguna dapat langsung menanyakan informasi tanpa perlu mencari secara manual.
 
-🤖 Respon Otomatis & Interaktif
+5. 🤖 Respon Otomatis & Interaktif
 Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas dan ramah.
