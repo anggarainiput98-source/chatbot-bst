@@ -118,3 +118,20 @@ GitHub
 - Jika menggunakan Python, jalankan skrip utama di src/chatbot_bst.py. 
 
 GitHub
+
+
+💡 Catatan Teknis
+
+1. Chatbot bekerja berdasarkan pencocokan teks terhadap dataset.csv. 
+
+GitHub
+
+2. Model ini tidak menggunakan pembelajaran mesin (machine learning) dalam versi saat ini. 
+
+GitHub
+
+📌 Lisensi
+
+Proyek ini dilisensikan di bawah MIT License — lihat berkas LICENSE untuk detail. 
+
+GitHub
