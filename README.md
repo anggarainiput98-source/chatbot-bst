@@ -8,6 +8,14 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange)
 ![Flask](https://img.shields.io/badge/Flask-Web_App-green)
 
+</div>
+
+---
+
+**#Demo Website Chatbot Batik Solo**
+![Image](https://github.com/user-attachments/assets/a4481df6-d299-412b-a88a-5cd99f922277)
+
+
 # Deskripsi Proyek
 
 Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
