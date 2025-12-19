@@ -1,5 +1,6 @@
 <div align="center">
-   # Bus Trans Solo
+   # SmartTransit Assistant
+   
    *Team-Based UAS Project – Healthcare*
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
