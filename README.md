@@ -41,3 +41,64 @@ Pengguna dapat langsung menanyakan informasi tanpa perlu mencari secara manual.
 
 5. 🤖 Respon Otomatis & Interaktif
 Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas dan ramah.
+
+
+
+🧠 Deskripsi Proyek
+
+Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
+GitHub
+
+GitHub
+
+📁 Struktur Repository
+
+1. src/
+Kode utama chatbot dan skrip pendukung. 
+GitHub
+
+2. dataset.csv
+Dataset berisi pertanyaan dan jawaban BST. 
+GitHub
+
+3. index.html
+Antarmuka pengguna untuk interaksi chatbot. 
+GitHub
+
+4.README.md
+Deskripsi dan panduan proyek. 
+GitHub
+
+🎯 Tujuan Proyek
+
+1. Menyediakan informasi layanan BST secara cepat dan akurat. 
+GitHub
+
+2. Menampilkan jadwal operasional BST. 
+GitHub
+
+3. Menyajikan informasi tarif perjalanan. 
+GitHub
+
+4. Meningkatkan akses informasi transportasi publik bagi masyarakat. 
+GitHub
+
+🚀 Cara Menjalankan
+
+1. Clone repository
+
+   git clone https://github.com/anggarainiput98-source/chatbot-bst.git
+   GitHub
+   
+2. Masuk ke folder proyek
+
+   cd chatbot-bst
+   GitHub
+
+3.Jalankan chatbot
+
+- Jika menggunakan antarmuka HTML, buka index.html di browser. 
+GitHub
+
+- Jika menggunakan Python, jalankan skrip utama di src/chatbot_bst.py. 
+GitHub
