@@ -115,7 +115,7 @@ Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas d
 
 2. Model ini tidak menggunakan pembelajaran mesin (machine learning) dalam versi saat ini. 
 
-*Lisensi*
+## *Lisensi*
 
 Proyek ini dilisensikan di bawah MIT License — lihat berkas LICENSE untuk detail. 
 
