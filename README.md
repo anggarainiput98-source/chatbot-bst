@@ -35,7 +35,7 @@ Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git 
 
 | Anggota      | Peran                    | Kontribusi Utama | Branch                                      |
 | :----------- | :----------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ |
-| *ALFI Hasna Anggraini (M0125004)* | Project Lead / Reviewer  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
+| *ALFI Hasna Anggraini (M0125004)* | Project Lead / ReviewerDokumentasi  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
 | *Putri Nur Anggaraini (M0125022)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
 | *Achika Vigo Azhyra (M0125001)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
 
@@ -73,17 +73,12 @@ Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas d
 ## Struktur Repository
 
 1. (src/) berisi kode utama chatbot dan skrip pendukung.
-2. dataset.csv
-
-Dataset berisi pertanyaan dan jawaban BST. 
-
-3. index.html
-
-Antarmuka pengguna untuk interaksi chatbot. 
-
-4.README.md
-
-Deskripsi dan panduan proyek. 
+   
+2. (dataset.csv) dataset berisi pertanyaan dan jawaban BST.
+  
+4. (index.html) berisi antarmuka pengguna untuk interaksi chatbot.
+    
+5. (README.md) berisi deskripsi dan panduan proyek. 
 
 ## Tujuan Proyek
 
