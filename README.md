@@ -1,7 +1,7 @@
 # chatbot-bst
 Chatbot BST adalah asisten AI interaktif yang memberikan info jadwal, harga, layanan, dan keunggulan bisnis secara cepat dan mudah. Dirancang untuk meningkatkan pengalaman pelanggan, efisiensi layanan, dan memberikan informasi lengkap tanpa harus menunggu staf manusia.
 
-PENDAHULUAN
+## 1.PENDAHULUAN
 
 Perkembangan teknologi informasi mendorong penerapan sistem cerdas pada berbagai sektor, termasuk transportasi publik. Salah satu bentuk penerapan tersebut adalah chatbot berbasis machine learning, yaitu sistem yang mampu berinteraksi dengan pengguna melalui bahasa alami secara otomatis.
 
@@ -10,6 +10,16 @@ Dalam layanan transportasi publik, ketersediaan informasi mengenai jadwal, rute,
 Pemanfaatan machine learning memungkinkan chatbot memahami masukan pengguna dan memberikan respons yang relevan. Pengembangan chatbot ini diharapkan dapat meningkatkan kualitas layanan informasi transportasi publik serta mendukung efisiensi dan kenyamanan pengguna.
 
 Proyek ini dikembangkan sebagai bagian dari Ujian Akhir Semester (UAS) 2025 Mahassiswa Matematika Universitas Sebelas Maret
+
+## 2. Anggota Kelompok & Bukti Kolaborasi Git Flow
+
+Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git Flow. Setiap anggota berkontribusi melalui branch masing-masing, kemudian digabungkan ke branch utama menggunakan pull request.
+
+| Anggota      | Peran                    | Kontribusi Utama | Branch                                      |
+| :----------- | :----------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ |
+| *Chalista Nida Nafilla (M0125010)* | Project Lead / Reviewer  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
+| *Azza Noor Arieva (M0125008)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
+| *Hanifah Putri Solikhah (M0125015)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
 
 Tujuan Chatbot BST 
 
