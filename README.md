@@ -11,15 +11,15 @@ Pemanfaatan machine learning memungkinkan chatbot memahami masukan pengguna dan 
 
 Proyek ini dikembangkan sebagai bagian dari Ujian Akhir Semester (UAS) 2025 Mahassiswa Matematika Universitas Sebelas Maret
 
-## 2. Anggota Kelompok & Bukti Kolaborasi Git Flow
+## 2. Anggota Kelompok & Bukti Kolaborasi
 
 Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git Flow. Setiap anggota berkontribusi melalui branch masing-masing, kemudian digabungkan ke branch utama menggunakan pull request.
 
 | Anggota      | Peran                    | Kontribusi Utama | Branch                                      |
 | :----------- | :----------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ |
-| *Chalista Nida Nafilla (M0125010)* | Project Lead / Reviewer  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
-| *Azza Noor Arieva (M0125008)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
-| *Hanifah Putri Solikhah (M0125015)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
+| *ALFI Hasna Anggraini (M0125004)* | Project Lead / Reviewer  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
+| *Putri Nur Anggaraini (M0125022)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
+| *Achika Vigo Azhyra (M0125001)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
 
 Tujuan Chatbot BST 
 
