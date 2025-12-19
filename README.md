@@ -12,7 +12,7 @@
 
 Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
 
-GitHub
+# Chatbot Batik Solo Trans_video_demo
 
 # chatbot-bst
 Chatbot BST adalah asisten AI interaktif yang memberikan info jadwal, harga, layanan, dan keunggulan bisnis secara cepat dan mudah. Dirancang untuk meningkatkan pengalaman pelanggan, efisiensi layanan, dan memberikan informasi lengkap tanpa harus menunggu staf manusia.
