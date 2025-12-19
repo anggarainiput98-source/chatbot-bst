@@ -33,11 +33,11 @@ Proyek ini dikembangkan sebagai bagian dari Ujian Akhir Semester (UAS) 2025 Maha
 
 Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git Flow. Setiap anggota berkontribusi melalui branch masing-masing, kemudian digabungkan ke branch utama menggunakan pull request.
 
-| Anggota      | Peran                    | Kontribusi Utama | Branch                                      |
-| :----------- | :----------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ |
-| *ALFI Hasna Anggraini (M0125004)* | Project Lead / ReviewerDokumentasi  |  Finalisasi dokumentasi (README) dan implementasi web deployment mengguna| main                                      |
-| *Putri Nur Anggaraini (M0125022)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
-| *Achika Vigo Azhyra (M0125001)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
+| Anggota | Peran | Kontribusi Utama | Branch |
+| :-- | :-- | :-- | :-- |
+| *Alfi Hasna Anggraini (M0125004)* | Dokumentasi | Penyuntingan dan finalisasi dokumentasi proyek (README), penyesuaian struktur penulisan, dan sinkronisasi dokumentasi dengan hasil implementasi | main |
+| *Putri Nur Anggaraini (M0125022)* | Model Training & Implementation | Pengembangan kode utama, data preprocessing, pelatihan model (Random Forest), serta pembuatan video simulasi/presentasi hasil sistem | feature/model-build |
+| *Achika Vigo Azhyra (M0125001)* | Data Support | Penambahan dan penyesuaian sebagian data pendukung yang digunakan dalam proses pengembangan proyek | feature/data-support |
 
 ## Tujuan Chatbot BST 
 
