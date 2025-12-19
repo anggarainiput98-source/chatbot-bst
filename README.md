@@ -54,11 +54,15 @@ GitHub
 📁 Struktur Repository
 
 1. src/
+
 Kode utama chatbot dan skrip pendukung. 
+
 GitHub
 
 2. dataset.csv
+
 Dataset berisi pertanyaan dan jawaban BST. 
+
 GitHub
 
 3. index.html
