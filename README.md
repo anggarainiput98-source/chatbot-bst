@@ -1,5 +1,6 @@
 <div align="center">
-   #SmartTransit Assistant
+  
+# *SmartTransit Assistant*
    
    *Team-Based UAS Project – Healthcare*
 
