@@ -35,7 +35,7 @@ Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git 
 
 | Anggota      | Peran                    | Kontribusi Utama | Branch                                      |
 | :----------- | :----------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ |
-| *ALFI Hasna Anggraini (M0125004)* | Project Lead / ReviewerDokumentasi  | Setup repositori, review dan merge Pull Requests (PRs)                                           | main                                      |
+| *ALFI Hasna Anggraini (M0125004)* | Project Lead / ReviewerDokumentasi  |  Finalisasi dokumentasi (README) dan implementasi web deployment mengguna| main                                      |
 | *Putri Nur Anggaraini (M0125022)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
 | *Achika Vigo Azhyra (M0125001)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
 
