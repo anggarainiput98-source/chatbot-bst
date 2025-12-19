@@ -13,7 +13,7 @@
 ---
 
 **#Demo Website Chatbot Batik Solo**
-![Image](https://github.com/user-attachments/assets/a4481df6-d299-412b-a88a-5cd99f922277)
+![Image](Chatbot Batik Solo Trans - Google Chrome 2025-12-19 13-00-13.mp4)
 
 
 # Deskripsi Proyek
