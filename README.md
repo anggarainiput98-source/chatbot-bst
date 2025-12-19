@@ -1,3 +1,10 @@
+<div align="center">
+   # 🩺 ML-Heart-Disease-Prediction
+   *Team-Based UAS Project – Healthcare*
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange)
+![Flask](https://img.shields.io/badge/Flask-Web_App-green)
 # chatbot-bst
 Chatbot BST adalah asisten AI interaktif yang memberikan info jadwal, harga, layanan, dan keunggulan bisnis secara cepat dan mudah. Dirancang untuk meningkatkan pengalaman pelanggan, efisiensi layanan, dan memberikan informasi lengkap tanpa harus menunggu staf manusia.
 
