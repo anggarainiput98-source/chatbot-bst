@@ -1,12 +1,18 @@
 <div align="center">
   
-# *SmartTransit Assistant*
+# *🚌 SmartTransit Assistant*
    
    *Team-Based UAS Project – Healthcare*
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange)
 ![Flask](https://img.shields.io/badge/Flask-Web_App-green)
+
+# Deskripsi Proyek
+
+Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
+
+GitHub
 
 # chatbot-bst
 Chatbot BST adalah asisten AI interaktif yang memberikan info jadwal, harga, layanan, dan keunggulan bisnis secara cepat dan mudah. Dirancang untuk meningkatkan pengalaman pelanggan, efisiensi layanan, dan memberikan informasi lengkap tanpa harus menunggu staf manusia.
@@ -31,7 +37,7 @@ Seluruh pekerjaan dalam proyek ini dilakukan secara kolaboratif menggunakan Git 
 | *Putri Nur Anggaraini (M0125022)*     | Model Training           | Data preprocessing (scaling), data splitting, model training (Random Forest), dan evaluasi model | feature/model-build                       |
 | *Achika Vigo Azhyra (M0125001)*     | Dokumentasi | Finalisasi dokumentasi (README) dan implementasi web deployment mengguna
 
-Tujuan Chatbot BST 
+## Tujuan Chatbot BST 
 
 Chatbot BST dirancang untuk memberikan informasi lengkap, cepat, dan akurat mengenai layanan Bus Rapid Transit (BST) kepada masyarakat. Chatbot ini bertujuan untuk membantu pengguna dalam:
 
@@ -45,7 +51,7 @@ Chatbot BST dirancang untuk memberikan informasi lengkap, cepat, dan akurat meng
 
 5. Menyediakan layanan informasi yang praktis, responsif, dan ramah pengguna
 
-Fitur Utama Chatbot BST
+## Fitur Utama Chatbot BST
 
 1. Informasi BST
 Menyediakan penjelasan lengkap mengenai BST, termasuk rute, layanan, dan fasilitas yang tersedia.
@@ -62,16 +68,7 @@ Pengguna dapat langsung menanyakan informasi tanpa perlu mencari secara manual.
 5. Respon Otomatis & Interaktif
 Chatbot merespons pertanyaan pengguna secara otomatis dengan bahasa yang jelas dan ramah.
 
-
-
-Deskripsi Proyek
-
-Chatbot BST mampu menerima pertanyaan pengguna dan memberikan respons yang sesuai berdasarkan dataset pertanyaan–jawaban yang telah tersedia. Sistem ini menggunakan pendekatan pencocokan teks sederhana (text matching) tanpa melibatkan algoritma machine learning kompleks. 
-GitHub
-
-GitHub
-
-Struktur Repository
+## Struktur Repository
 
 1. src/
 
@@ -97,7 +94,7 @@ Deskripsi dan panduan proyek.
 
 GitHub
 
-Tujuan Proyek
+## Tujuan Proyek
 
 1. Menyediakan informasi layanan BST secara cepat dan akurat. 
 
@@ -115,7 +112,7 @@ GitHub
 
 GitHub
 
-Cara Menjalankan
+## Cara Menjalankan
 
 1. Clone repository
 
@@ -140,7 +137,7 @@ GitHub
 GitHub
 
 
-Catatan 
+## Catatan 
 
 1. Chatbot bekerja berdasarkan pencocokan teks terhadap dataset.csv. 
 
@@ -156,6 +153,6 @@ Proyek ini dilisensikan di bawah MIT License — lihat berkas LICENSE untuk deta
 
 GitHub
 
-Kesimpulan 
+## Kesimpulan 
 
 Chatbot BST merupakan sistem informasi transportasi berbasis rule/text matching yang sederhana namun fungsional.
