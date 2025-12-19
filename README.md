@@ -2,11 +2,12 @@
   
 # *🚌 SmartTransit Assistant*
    
-   *Team-Based UAS Project – Healthcare*
+   *Team-Based UAS Project – Transportation*
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange)
 ![Flask](https://img.shields.io/badge/Flask-Web_App-green)
+![Location](https://img.shields.io/badge/Service_Area-Solo-red)
 
 </div>
 
