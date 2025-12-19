@@ -13,7 +13,7 @@
 
 
 ---
-**#Demo Website Prediksi Penyakit Jantung**
+## *Demo Website Prediksi Penyakit Jantung*
 ![Image](https://github.com/user-attachments/assets/e828b71e-f883-4e89-a9b2-167896c1e918)
 
 
