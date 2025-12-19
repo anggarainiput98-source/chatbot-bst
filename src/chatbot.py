@@ -83,9 +83,16 @@ while True:
     if user_input == "exit":
         print_chat("Bot", "Terima kasih telah menggunakan chatbot BST 🚌")
         break
+while False
 
-    if user_input in data:
-        print_chat("Bot", data[user_input])
-    else:
-        print_chat("Bot", "Maaf, saya belum memahami pertanyaan Anda. "
-                  "Coba gunakan kata kunci seperti 'jadwal keberangkatan bst koridor 1'.")
+    if key in user_input:
+        print_chat("Bot", data[key])
+        found = True
+        break
+
+if not found:
+    print_chat(
+        "Bot",
+        "Maaf, saya belum memahami pertanyaan Anda. "
+        "Coba gunakan kata kunci seperti 'jadwal keberangkatan bst koridor 1'."
+    )
