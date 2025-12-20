@@ -2,6 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chatbot Batik Solo Trans</title>
 
 <style>
@@ -16,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .chat-container {
@@ -49,17 +51,16 @@ body {
     margin-bottom: 10px;
     border-radius: 12px;
     line-height: 1.4;
+    word-wrap: break-word;
 }
 
 .bot-message {
     background: #ecf0f1;
-    align-self: flex-start;
 }
 
 .user-message {
     background: #3498db;
     color: white;
-    align-self: flex-end;
     margin-left: auto;
 }
 
@@ -110,7 +111,7 @@ body {
 
     <div class="chat-input">
         <input type="text" id="userInput" placeholder="Ketik pertanyaan di sini...">
-        <button onclick="sendMessage()">Kirim</button>
+        <button type="button" id="sendBtn">Kirim</button>
     </div>
 </div>
 
@@ -137,7 +138,7 @@ const data = {
     "bisa pakai qris": "Ya, di beberapa halte.",
     "apakah ada biaya tambahan bagasi": "Tidak.",
     "apakah bst cocok untuk perjalanan harian": "Ya.",
-    "apakah bst berhenti di halte tertentu saja":"Ya bst hanya berhenti di halte tertentu saja.",
+    "apakah bst berhenti di halte tertentu saja": "Ya bst hanya berhenti di halte tertentu saja.",
     "apakah bst aman untuk penumpang": "Ya bst dilengkapi pengemudi terlatih dan sistem keamanan.",
     "apakah bst bisa digunakan oleh wisatawan": "Ya bst dapat digunakan oleh wisatawan untuk berkeliling Kota Solo.",
     "apakah bst memiliki pendingin udara": "Ya armada bst dilengkapi dengan pendingin udara (AC).",
@@ -155,18 +156,19 @@ const data = {
 
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
+const sendBtn = document.getElementById("sendBtn");
 
 function addMessage(text, className) {
     const div = document.createElement("div");
     div.className = className;
-    div.innerText = text;
+    div.textContent = text;
     chatBox.appendChild(div);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
 
 function sendMessage() {
     const message = userInput.value.toLowerCase().trim();
-    if (message === "") return;
+    if (!message) return;
 
     addMessage(message, "user-message");
 
@@ -175,12 +177,14 @@ function sendMessage() {
 
     setTimeout(() => {
         addMessage(reply, "bot-message");
-    }, 500);
+    }, 400);
 
     userInput.value = "";
 }
 
-userInput.addEventListener("keypress", function(e) {
+sendBtn.addEventListener("click", sendMessage);
+
+userInput.addEventListener("keydown", function(e) {
     if (e.key === "Enter") {
         sendMessage();
     }
@@ -189,3 +193,4 @@ userInput.addEventListener("keypress", function(e) {
 
 </body>
 </html>
+
