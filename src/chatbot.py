@@ -26,6 +26,22 @@ data = {
     "tarif koridor 1 sama koridor 2": "Sama, flat rate.",
     "bisa pakai qris": "Ya, di beberapa halte.",
     "apakah ada biaya tambahan bagasi": "Tidak."
+    "apakah bst cocok untuk perjalanan harian": "Ya.",
+    "apakah bst berhenti di halte tertentu saja": "Ya bst hanya berhenti di halte tertentu saja.",
+    "apakah bst aman untuk penumpang": "Ya bst dilengkapi pengemudi terlatih dan sistem keamanan.",
+    "apakah bst bisa digunakan oleh wisatawan": "Ya bst dapat digunakan oleh wisatawan untuk berkeliling Kota Solo.",
+    "apakah bst memiliki pendingin udara": "Ya armada bst dilengkapi dengan pendingin udara (AC).",
+    "bst mulai beroperasi jam berapa pagi": "BST mulai beroperasi pada pagi hari sekitar pukul 05.30 WIB.",
+    "bst berhenti beroperasi jam berapa": "BST berhenti beroperasi pada malam hari sekitar pukul 21.00 WIB.",
+    "bst melayani hari apa saja": "BST melayani penumpang setiap hari termasuk akhir pekan dan hari libur.",
+    "apakah bst beroperasi malam hari": "Ya BST tetap beroperasi hingga malam hari sesuai jam operasional.",
+    "berapa lama waktu tunggu bus bst": "Waktu tunggu BST berkisar antara 10–15 menit pada jam normal.",
+    "bst melayani pelajar dan mahasiswa": "Ya BST melayani pelajar dan mahasiswa dengan tarif terjangkau.",
+    "apakah bst ramah untuk difabel": "Ya BST menyediakan fasilitas ramah difabel.",
+    "bst melayani rute dalam kota saja": "BST terutama melayani rute dalam Kota Solo dan sekitarnya.",
+    "bst dapat digunakan untuk ke pusat kota": "Ya BST melayani berbagai rute menuju pusat Kota Solo.",
+    "apakah bst memiliki jadwal tetap": "Ya BST memiliki jadwal operasional dan interval keberangkatan yang teratur."
+
 }
 
 # ASCII art bus
