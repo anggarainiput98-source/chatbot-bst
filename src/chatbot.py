@@ -25,7 +25,7 @@ data = {
     "cara top up kartu bst": "Lewat loket atau aplikasi digital.",
     "tarif koridor 1 sama koridor 2": "Sama, flat rate.",
     "bisa pakai qris": "Ya, di beberapa halte.",
-    "apakah ada biaya tambahan bagasi": "Tidak."
+    "apakah ada biaya tambahan bagasi": "Tidak.",
     "apakah bst cocok untuk perjalanan harian": "Ya.",
     "apakah bst berhenti di halte tertentu saja": "Ya bst hanya berhenti di halte tertentu saja.",
     "apakah bst aman untuk penumpang": "Ya bst dilengkapi pengemudi terlatih dan sistem keamanan.",
